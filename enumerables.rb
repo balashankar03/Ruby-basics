@@ -42,3 +42,13 @@ end
 
 puts result
 
+
+numbers = [21, 42, 303, 499, 550, 811]
+
+numbers.any? { |number| number > 500 }
+
+
+fruits = ["apple","banana","cherry"]
+
+fruits.all? { |fruit| fruit.length > 3 }
+

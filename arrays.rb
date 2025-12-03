@@ -31,3 +31,16 @@ puts numbers.length
 print numbers.reverse
 puts numbers.include?(3)
 puts numbers.join("-")
+
+mut=Array.new(3,Array.new(2))#this just sets initial value as nested arrays
+
+
+
+nested=Array.new(3) {Array.new(2)}
+
+
+
+nested << [100,99,88]
+nested[0].push(89)
+print nested
+
