@@ -32,7 +32,7 @@ answer=arr1.map do |number|
 end
 print answer
 
-#select
+
 puts
 result=arr2.select {|str| str.include?("a")}
 print result
